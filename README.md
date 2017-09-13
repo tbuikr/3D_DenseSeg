@@ -11,7 +11,7 @@ Link: https://arxiv.org/abs/1709.03199
 ### Dice Coefficient (DC) for 9th subject
 |                   | CSF       | GM             | WM   | Average 
 |-------------------|:-------------------:|:---------------------:|:-----:|:--------------:|
-|3D-DenseSeg  | 94.69% | 91.57% |91.25% | 92.50% 
+|3D-DenseSeg  | 94.74% | 91.61% |91.30% | 92.55% 
 
 ### Citation
 
