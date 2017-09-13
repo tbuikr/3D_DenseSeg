@@ -1,0 +1,9 @@
+/media/toanhoi/Study/databaseSeg/ISeg/hdf5_iseg_data/train_iseg_norm_cutedge_weight_1.h5
+/media/toanhoi/Study/databaseSeg/ISeg/hdf5_iseg_data/train_iseg_norm_cutedge_weight_2.h5
+/media/toanhoi/Study/databaseSeg/ISeg/hdf5_iseg_data/train_iseg_norm_cutedge_weight_3.h5
+/media/toanhoi/Study/databaseSeg/ISeg/hdf5_iseg_data/train_iseg_norm_cutedge_weight_4.h5
+/media/toanhoi/Study/databaseSeg/ISeg/hdf5_iseg_data/train_iseg_norm_cutedge_weight_5.h5
+/media/toanhoi/Study/databaseSeg/ISeg/hdf5_iseg_data/train_iseg_norm_cutedge_weight_6.h5
+/media/toanhoi/Study/databaseSeg/ISeg/hdf5_iseg_data/train_iseg_norm_cutedge_weight_7.h5
+/media/toanhoi/Study/databaseSeg/ISeg/hdf5_iseg_data/train_iseg_norm_cutedge_weight_8.h5
+/media/toanhoi/Study/databaseSeg/ISeg/hdf5_iseg_data/train_iseg_norm_cutedge_weight_10.h5
