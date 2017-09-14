@@ -1,4 +1,4 @@
-# 3D_DenseSeg: 3D Densely Convolution Networks for Volumetric Segmentation
+# 3D_DenseSeg: 3D Densely Convolutional Networks for Volumetric Segmentation
 By Toan Duc Bui, Jitae Shin, Taesup Moon
 
 This is the implementation of our method in the MICCAI Grand Challenge on 6-month infant brain MRI segmentation-in conjunction with MICCAI 2017.
