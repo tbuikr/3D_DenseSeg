@@ -90,7 +90,7 @@ if __name__ == "__main__":
     num_paches=0
 
     model_def='./deploy_3d_denseseg.prototxt'
-    model_weights = "./snapshot/3d_denseseg_iseg_iter_168000.caffemodel"
+    model_weights = "./snapshot/3d_denseseg_iseg_iter_200000.caffemodel"
     net = caffe.Net(model_def, model_weights,caffe.TEST)
     patch_input = [64, 64, 64]
     xstep = 16
