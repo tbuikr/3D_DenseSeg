@@ -14,6 +14,14 @@ Link: https://arxiv.org/abs/1709.03199
 |3D-DenseSeg  | 94.74% | 91.61% |91.30% | 92.55% 
 
 ### Citation
+```
+@article{bui20173d,
+  title={3D Densely Convolution Networks for Volumetric Segmentation},
+  author={Bui, Toan Duc and Shin, Jitae and Moon, Taesup},
+  journal={arXiv preprint arXiv:1709.03199},
+  year={2017}
+}
+```
 
 ### Requirements: 
 - 3D-CAFFE (as below), python 2.7, Ubuntu 14.04, CUDNN 5.1, CUDA 8.0
