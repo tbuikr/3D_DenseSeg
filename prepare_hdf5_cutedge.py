@@ -58,7 +58,7 @@ def build_h5_dataset(data_path, target_path):
     '''
     for i in range(10):
         #Skip subject 9 for validation
-        if (i==9):
+        if (i==8):
             continue
         subject_name = 'subject-%d-' % (i + 1)
         f_T1 = os.path.join(data_path, subject_name + 'T1.hdr')
