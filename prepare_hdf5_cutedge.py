@@ -2,7 +2,7 @@ from medpy.io import load
 import numpy as np
 import os
 import h5py
-from convert_label import convert_label
+
 #Path to your dataset (img, hdr files)
 data_path = '/media/toanhoi/Study/databaseSeg/ISeg/iSeg-2017-Training'
 #Saved path
@@ -51,6 +51,16 @@ def cut_edge(data, keep_margin):
         W_e = min(W - 1, W_e + keep_margin)
 
     return int(D_s), int(D_e), int(H_s), int(H_e), int(W_s), int(W_e)
+
+def convert_label(label_img):
+    label_processed=np.zeros(label_img.shape[0:]).astype(np.uint8)
+    for i in range(label_img.shape[2]):
+        label_slice=label_img[:, :, i]
+        label_slice[label_slice == 10] = 1
+        label_slice[label_slice == 150] = 2
+        label_slice[label_slice == 250] = 3
+        label_processed[:, :, i]=label_slice
+    return label_processed
 
 def build_h5_dataset(data_path, target_path):
     '''
