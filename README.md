@@ -6,6 +6,7 @@ This is the implementation of our method in the MICCAI Grand Challenge on 6-mont
 ### Update: (Aug. 14. 2019): We also release the Pytorch version of my journal version at https://github.com/tbuikr/3D-SkipDenseSeg
 
 ### Citation
+```
 @article{bui2019skip,
   title={Skip-connected 3D DenseNet for volumetric infant brain MRI segmentation},
   author={Bui, Toan Duc and Shin, Jitae and Moon, Taesup},
@@ -15,7 +16,10 @@ This is the implementation of our method in the MICCAI Grand Challenge on 6-mont
   year={2019},
   publisher={Elsevier}
 }
+```
+
 Link journal version: https://www.sciencedirect.com/science/article/pii/S1746809419301946
+
 Link conference version: https://arxiv.org/abs/1709.03199
 
 ### Introduction
